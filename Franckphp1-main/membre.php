@@ -1,0 +1,1 @@
+<?php echo 'Section reservée aux membres' ?>

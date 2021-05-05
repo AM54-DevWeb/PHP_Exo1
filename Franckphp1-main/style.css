@@ -1,0 +1,99 @@
+/*Accueil*/
+.card, .bg-light, .mb-3{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 25%;
+}
+
+.btn-primary{
+    float: right;
+    width: 40%;
+}
+
+.savoirPlus{
+    float: left;
+    width: 40%;
+}
+
+.imgCookie{
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.card-body{
+    background-color: beige;
+}
+
+/*article*/
+.cardArticle{
+    width: 40%;
+}
+
+.ingredients{
+    width: 25%;
+    height: 50%;
+    background-color: grey;
+    display: flex;
+    float: right;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.ingredientsText{
+    text-align: center;
+    width: 100%;
+}
+
+.titreIngredients{
+    font-size: 1.2em;
+    margin-right: 5%;
+    display: flex;
+}
+
+.liIngredients{
+    text-align: start;
+}
+
+.liIngredients1{
+    margin-top: 10%;
+}
+
+/* connexion déconnexion navbar */
+
+.connexionDeco{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.espaceCo{
+    width: 2%;
+}
+
+/* INSCRIPTION */
+
+.inscriptionForm{
+    width: 15%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px grey;
+}
+
+.inscriptionLabel{
+    width: 100px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.inputForm{
+    min-width: 250px;
+}
+
+.inputFormSubmit{
+    min-width: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
